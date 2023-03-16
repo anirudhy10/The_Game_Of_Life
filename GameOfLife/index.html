@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Of Life</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="heading">GAME OF LIFE</div>
+
+    <p>RULES:-</p>
+    <div class="rules">
+        The universe of the Game of Life is an infinite, two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, live or dead (or populated and unpopulated, respectively). Every cell interacts with its eight neighbours.At each step in time, the following transitions occur:
+        <ol>
+            <li>Any live cell with fewer than two live neighbours dies, as if by underpopulation.</li>
+            <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+            <li>Any live cell with more than three live neighbours dies, as if by overpopulation.</li>
+            <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+        </ol>
+    </div>
+
+
+
+    <canvas id="canvas""></canvas>
+
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.min.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
